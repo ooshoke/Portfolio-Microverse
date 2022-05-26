@@ -81,6 +81,7 @@ html{
         text-align: center;
         color: #FFFFFF;
     }
+    
 
     .collaborate-btn{
         box-sizing: border-box;
@@ -91,6 +92,15 @@ html{
         top: 270px;
         background: #1A2236;
     }
+
+    .collaborate-btn:active{
+        background: #FFFFFF;
+    }
+    .collaborate-btn:active .start{
+        color: #1A2236;
+    }
+
+
 
     .graphic2{
         position: absolute;
