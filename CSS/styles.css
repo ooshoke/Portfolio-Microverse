@@ -1,0 +1,105 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+@media only screen and (min-width: 320px) {
+    .app-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .graphic1{
+        position: absolute;
+        width: 111px;
+        height: 74px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .menu-icon{
+        position: absolute;
+        width: 20px;
+        height: 14px;
+        left: 284px;
+        top: 19px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 288px;
+        height: 336px;
+        left: 16px;
+        top: 104px;
+        align-content: center;
+    }
+
+    .name{
+        position: absolute;
+        width: 220px;
+        height: 100px;
+        left: 16px;
+        top: -22px;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 100%;
+    }
+    
+    .introduction{
+        position: absolute;
+        width: 288px;
+        height: 126px;
+        left: 16px;
+        top: 94px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.01em;
+        color: #1A2236;
+
+    }
+
+    .start{
+        position: absolute;
+        width: 203.68px;
+        height: 26.47px;
+        left: 38px;
+        top: -5px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .collaborate-btn{
+        box-sizing: border-box;
+        position: absolute;
+        width: 288px;
+        height: 50px;
+        left: 16px;
+        top: 270px;
+        background: #1A2236;
+    }
+
+    .graphic2{
+        position: absolute;
+        width: 320px;
+        height: 160px;
+        left: 0px;
+        top: 335px;
+
+    }
+
+
+}
