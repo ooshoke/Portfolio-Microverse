@@ -16,12 +16,14 @@
 ## Getting Started
 
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, the repository can be found at https://github.com/ooshoke/Portfolio-Microverse follow these simple steps.
+- Make a clone of the repository to your local machine using Git or checkout with SVN using the web URL
+- Open the index.html file with your default browser
 
 ### Prerequisites
 - A modern web browser
 - A copy of the index.html file, css and img file
-
+- Git
 
 
 ## Authors
